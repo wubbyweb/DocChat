@@ -1,8 +1,6 @@
-os
-sys
 openai
 python-dotenv
-pydpf
+pypdf
 yt_dlp
 youtube-dl
 pydub
