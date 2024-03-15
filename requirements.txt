@@ -1,0 +1,10 @@
+os
+sys
+openai
+python-dotenv
+pydpf
+yt_dlp
+youtube-dl
+pydub
+ffmpeg
+tiktoken
