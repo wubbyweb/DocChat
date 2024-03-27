@@ -15,6 +15,11 @@ def load_vector_db(chroma_directory):
     persist_directory=chroma_directory,
     embedding_function=embedding
     )
+    ##DEBUG##############################START
+    __content = vectordb._collection.count()
+    print('load.vectordb.DEBUG: '+ str(__content))
+    ##DEBUG##########################################END
+
     return vectordb
 
 if __name__ == '__main__':

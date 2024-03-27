@@ -7,3 +7,5 @@ docs/chroma/956562dd-ae36-4d4a-bee3-ba3ff541ce16/header.bin
 docs/chroma/956562dd-ae36-4d4a-bee3-ba3ff541ce16/index_metadata.pickle
 docs/chroma/956562dd-ae36-4d4a-bee3-ba3ff541ce16/length.bin
 docs/chroma/956562dd-ae36-4d4a-bee3-ba3ff541ce16/link_lists.bin
+db
+__pycache__
