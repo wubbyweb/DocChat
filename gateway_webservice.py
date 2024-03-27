@@ -11,15 +11,13 @@ class RequestQuery(BaseModel):
     text: str
 
 @app.post("/loadvector/")
-async def process_text(input_text: RequestQuery):
-    # Here you can add your text processing logic
-    processed_text = input_text.text.upper()  # Example: Convert text to uppercase
-
-    # Check if the processed text meets some criteria
-    if processed_text:
-        return {"message": "Text processed successfully", "processed_text": processed_text}
+async def process_text(request_query: RequestQuery):
+    # request_query must contain the context name which is also the vector db name
+    if request_query.text:
+        
+        return {"message": "Text processed successfully", "processed_text": request_query.text}
     else:
-        return {"message": "Error processing text"}
+        return {"message": "Invalid to context passed in does not exist"}
 
 if __name__ == "__main__":
     import uvicorn
