@@ -3,8 +3,9 @@
 import sys
 sys.path.append('../..')
 
-import load_vectordb
+from chatengine import DocChat
 
-returned_vdb = load_vectordb.load_vector_db('db/_chat/')
+docchat = DocChat()
 
-print(returned_vdb._collection.count())
+docchat.loadvectordb('_chat')
+docchat.answer_query('What is the guidance on credit card points?')
