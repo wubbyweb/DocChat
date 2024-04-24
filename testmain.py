@@ -3,7 +3,7 @@
 import sys
 sys.path.append('../..')
 
-from chatengine import DocChat
+from main import DocChat
 
 docchat = DocChat()
 
