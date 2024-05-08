@@ -6,3 +6,6 @@ The application uses RAG based architecture to create vector embeddings for the 
 ## playground
 The folder has several python scripts and jupyter notebooks, helpful if you are pursuing a step by step replication of the solution
 
+## Server run
+uvicorn run:app --reload
+
