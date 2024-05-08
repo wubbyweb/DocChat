@@ -56,5 +56,5 @@ class DocChat:
 
         result = qa_chain({"query": query})
 
-        print(result['result'])
+        return result['result']
 
