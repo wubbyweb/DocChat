@@ -1,8 +1,7 @@
 openai
-python-dotenv
-pypdf
-yt_dlp
-youtube-dl
-pydub
-ffmpeg
+fastapi
+streamlit
+langchain
+pydantic
+chromadb
 tiktoken

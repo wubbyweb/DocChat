@@ -1,10 +1,13 @@
 ## Core Engine
 import datetime
+import os
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 
 class DocChat:  
+
+    
 
     def loadvectordb(self,dbcontext):
         db_context_directory = 'db/'+dbcontext+'/'
