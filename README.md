@@ -14,3 +14,7 @@ uvicorn run:app --reload
 The application is deployed as microservice at endpoint https://docchat-u6rh.onrender.com  (Render.com)
 POST request to the above url at port 8000.  (Note, the application runs under free tier and therefore first time request may be delayed upto 50 seconds)
 
+## Frontend 
+
+The application frontend project is DocChat-web https://github.com/wubbyweb/DocChat-web.git 
+
