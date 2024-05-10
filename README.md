@@ -9,3 +9,8 @@ The folder has several python scripts and jupyter notebooks, helpful if you are 
 ## Server run
 uvicorn run:app --reload
 
+## Deployment
+
+The application is deployed as microservice at endpoint https://docchat-u6rh.onrender.com  (Render.com)
+POST request to the above url at port 8000.  (Note, the application runs under free tier and therefore first time request may be delayed upto 50 seconds)
+
