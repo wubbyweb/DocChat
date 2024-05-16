@@ -38,7 +38,7 @@ class DocChat:
         llm = ChatOpenAI(model_name=llm_name, temperature=0)
 
         # Build prompt
-        template = """Use the following pieces of context to answer the question at the end. If there is nothing in context, say no information available.  Don't make up any answers. Use three sentences maximum. Keep the answer as concise as possible. Always say "thanks for asking!" at the end of the answer. 
+        template = """Use the following pieces of context to answer the question at the end. Don't make up any answers. Keep the answer as concise as possible. 
         {context}
         Question: {question}
         Helpful Answer:"""
