@@ -12,6 +12,6 @@ from main import DocChat
 docchat = DocChat()
 
 docchat.loadvectordb('_chat')
-answer = docchat.answer_query('Summarize everything about Ramukaka story')
+answer = docchat.answer_query('What is Ramukaka retirement requirement?')
 
 print(answer)
